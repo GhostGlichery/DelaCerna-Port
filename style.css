@@ -1,0 +1,202 @@
+body {
+   margin: 0px;
+   color: black;
+   font-family: montserrat;
+   background: #C9FFF5;
+}
+
+header {
+   padding: 20px;
+   height: 100vh;
+   background: url('giphy (2).gif');
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.btna {
+   padding: 5px;
+   color: black;
+   text-decoration: none;
+   background: white;
+   border: 2px solid black;
+   border-radius: 5px;
+   transition: 0.3s ease;
+}
+
+.btna:hover {
+   color: white;
+   text-decoration: none;
+   background: black;
+   border: 2px solid white;
+   border-radius: 5px;
+}
+
+.intro {
+   padding: 20px;
+   color: black;
+}
+
+header li {
+   display: inline;
+}
+
+header li a {
+   color: white;
+   font-weight: bold;
+   text-decoration: none;
+   color: black;
+}
+
+.img {
+   width: 150px;
+   height: 150px;
+   background: url('pfp.jpeg');
+   background-size: cover;
+   border-radius: 100%;
+}
+
+#Services {
+   line-height: 2em;
+   margin: 5px;
+}
+
+nav {
+   padding: 20px;
+   text-align: center;
+   word-spacing: 2em;
+}
+
+.box1 {
+   padding: 20px;
+   margin: 10px;
+   background: #A2CEC6;
+   border-radius: 10px;
+}
+
+.box2 {
+   padding: 20px;
+   margin: 10px;
+   background: #A2CEC6;
+   justify-content: space-around;
+   border-radius: 10px;
+}
+
+.box3 {
+   padding: 20px;
+   margin: 10px;
+   background: #A2CEC6;
+   border-radius: 10px;
+}
+
+   .Name {
+      padding: 20px;
+      margin: 5px;
+      background: #57B4A3;
+      border-radius: 20px
+   }
+   
+   .skills {
+      padding: 20px;
+      margin: 5px;
+      background: #57B4A3;
+      border-radius: 20px
+   }
+   
+   .contacts {
+      padding: 20px;
+      margin: 5px;
+      background: #57B4A3;
+      border-radius: 20px
+   }
+   
+   .address {
+      padding: 20px;
+      margin: 5px;
+      background: #57B4A3;
+      border-radius: 20px
+   }
+
+.ign {
+   padding: 20px;
+   margin: 0px auto;
+   transform: translateY(25%);
+}
+
+.hire {
+   margin: 5px;
+   padding: 5px;
+}
+
+   .contact {
+      padding: 20px;
+      margin: 5px;
+      background: #57B4A3;
+      border-radius: 20px
+   }
+
+footer {
+   padding: 20px;
+   background: #315E56;
+   text-align: center;
+   color: white;
+}
+
+@media (min-width: 500px) {
+   header {
+   padding: 20px;
+   height: 100vh;
+   background: url('giphy (2).gif');
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+   
+   header li a {
+      font-size: 20pt;
+   }
+   
+   .textcont {
+      font-size: 20pt;
+   }
+   
+   .intro {
+      margin: auto;
+      text-align: center;
+   }
+   
+   .wrap1 {
+      display: flex;
+   }
+   
+   .ignore {
+      flex: 1;
+   }
+   
+   nav {
+      flex: 1;
+   }
+   
+   section {
+      display: flex;
+   }
+   
+   .invmed {
+      visibility: collapse;
+      font-size: 0pt;
+   }
+   
+   .Name {
+      flex: 1;
+   }
+   
+   .skills {
+      flex: 1;
+   }
+   
+   .contacts {
+      flex: 1;
+   }
+   
+   .address {
+      flex: 1;
+   }
+}
